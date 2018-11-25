@@ -1,0 +1,297 @@
+/* simple single-column format page */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+a img {border:none;}
+body {font-size:12pt;color:#222;background:#fff;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#444;}
+h1 {font-size:3em;line-height:1.1em;margin-bottom:0.5em;}
+h2 {font-size:2em;line-height:1em;margin-bottom:0.5em;margin-top:0.5em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:0.5em;margin-top:0.5em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:0.5em;margin-top:0.5em}
+h5 {font-size:1em;font-weight:bold;margin-bottom:0.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em;}
+p img {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
+p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+a:focus, a:hover {color:#009;}
+a {color:#669;text-decoration:underline;}
+ol, ul, dd { margin-left: 30px; margin-bottom:0.5em; }
+
+.container {width:950px;margin:0 auto;}
+.showgrid {background:url(grid.png);}
+body {margin:1.5em 0;}
+
+body
+{ margin:0; }
+
+p
+{ font-size:12pt; }
+
+li { margin-bottom: 3px }
+
+h1,h2,h3,h4
+{ font-weight:100; }
+
+h1
+{ line-height:1.1em;
+  font-size:32px;
+  margin-top:12px; }
+
+h2
+{ margin-bottom:0.4em; }
+
+caption, th
+{ font-weight:bold; }
+
+caption
+{ text-align:center; }
+
+th, td
+{ padding: 3px; }
+
+
+.left
+{ float:left; }
+
+.right
+{ float:right; }
+
+.clear
+{ clear:both; }
+
+.cleardiv
+{ clear:both;
+  height:0; }
+
+h1
+{ 
+	color:#444;
+	text-align:center;
+}
+
+h2, h3, h4
+{ color:#E44600; }
+
+p, dd, dt
+{ color:#555; }
+
+
+#fcredits
+{ margin:3px 10px 3px 3px;
+  font-size:12px;
+  color:#666; }
+
+#fcredits a
+{ font-size:12px;
+  color:#666;
+  text-decoration:none; }
+
+#fcredits a:hover
+{ font-size:12px;
+  color:#666;
+  text-decoration:underline; }
+
+#menubar {
+   display: flex;
+   justify-content: space-between;
+   margin: 20px;
+   padding: 0px;
+}
+
+.menulabel {
+   margin: 0px;
+   padding: 0px;
+   width: 100px;
+   height: 66px;
+   font-size:18px;
+   line-height:20px;
+   font-weight: 400;
+   margin-top:0px;
+   border-right: 2px solid #bc3800;
+   display: table-cell;
+   color: #ff8844;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.menubutton {
+   margin-right: 1rem;
+   color: #555;
+}
+
+.status {
+   color: aquamarine;
+}
+
+.menubutton:hover {
+   color: steelblue;
+   cursor: pointer;
+}
+
+#main {
+   margin: 0px;
+   padding: 0px;
+   border: 0px solid green;
+
+}
+
+#content {
+   margin: 0px auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   max-width:800px;
+}
+
+.panel {
+   width:800px;
+   height:200px;
+   /* border: 1px solid black; */
+   background: #EEE;
+   margin: 5px;
+}
+
+.graph {
+   width:800px;
+   height:200px;
+   margin: 5px;
+}
+
+.textpanel {
+   width:800px;
+   height:200px;
+   border: 1px solid black;
+   margin: 5px;
+   padding: 5px;
+   background-color: white;
+  font-family: Verdana, Arial;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.textpanel table tr td {
+  line-height: 32px;
+  vertical-align: center;
+  padding: 3px;
+  margin: 3px;
+}
+
+.prompt {
+  font-family: Verdana, Arial;
+  font-size: 14px;
+  text-align: right;
+}
+
+.inputfield {
+  font-family: Verdana, Arial;
+  font-size: 14px;
+   background-color: #CCFFCC;
+}
+
+.vumeter {
+   width:200px;
+   height:50px;
+   border: 1px solid black;
+   margin: 5px;
+}
+
+#footer {
+   height: 20px;
+   border: 0px solid black;
+   margin: 0px;
+   padding: 0px;
+}
+
+.modal {
+	background-color: white;
+	color: black;
+	border: 1px solid gray;
+	padding: 20px;
+	display: block;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+.background {
+	background-color: black;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	background-color:rgba(0,0,0,0.8);
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+}
+
+.mask {
+	background-color: black;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	background-color:rgba(0,0,0,0.8);
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+}
+
+.inputfile {
+  font-family: Verdana, Arial;
+  font-size: 14px;
+  padding: 4px;
+  height: 50px;
+  width: 200px;
+  margin:5px;
+}
+
+.button {
+  font-family: Verdana, Arial;
+  font-size: 14px;
+  padding: 4px;
+  height: 40px;
+  width: 100px;
+  margin:5px;
+}
+
+table.imagetable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.imagetable th {
+	background:#b5cfd2;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.imagetable td {
+	background:#dcddc0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+body {
+   transition: border-top 0.2s ease;
+   border-top: 15px solid bisque;
+}
+.okay {
+   border-top: 15px solid bisque;
+}
+.warn {
+   border-top: 15px solid aquamarine;
+}
