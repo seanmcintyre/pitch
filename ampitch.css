@@ -287,10 +287,10 @@ table.imagetable td {
 
 body {
    transition: border-top 0.2s ease;
-   border-top: 15px solid bisque;
+   border-top: 15px solid #333;
 }
 .okay {
-   border-top: 15px solid bisque;
+   border-top: 15px solid #333;
 }
 .warn {
    border-top: 15px solid aquamarine;
