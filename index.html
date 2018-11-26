@@ -35,7 +35,7 @@
         var BACKCOLOUR = "#FFF";
         var GRIDCOLOUR = "#EEE";
         var AMPCOLOUR = "aquamarine";
-        var FXCOLOUR = "tomato";
+        var FXCOLOUR = "steelblue";
 
         // pitch track
         var analbuf;
@@ -250,6 +250,15 @@
                 }
             }
 
+            // draw hot lava line
+            ctx.strokeStyle = 'tomato';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            var y = Math.round(ctx.height - ctx.height * (Math.log(warnOnMin) - logfxmin) / (logfxmax - logfxmin));
+            ctx.moveTo(0, y);
+            ctx.lineTo(ctx.width, y);
+            ctx.stroke();
+            
             // draw frequency grid
             ctx.strokeStyle = GRIDCOLOUR;
             ctx.lineWidth = 1;
