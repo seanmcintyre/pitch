@@ -260,7 +260,14 @@ function paint(anitime)
   }
 
   // report time
-  document.querySelector('.status').innerText = curtime.toFixed(2);
+  var duration = moment.duration(curtime, 'seconds')
+  var days = duration.days()
+  var hours = duration.hours() > 0 ? `${duration.hours()}h` : ''
+  var minutes = duration.minutes() > 0 ? `${duration.minutes()}m` : ''
+  var seconds = duration.seconds() > 0 ? `${duration.seconds()}s` : ''
+  var durationFormatted = days < 1 ? `${hours} ${minutes} ${seconds}` : 'Whoa girl. Time to take a break.'
+  document.querySelector('.status').innerText = durationFormatted;
+
 
   // draw graph
   if (ampmod) {
